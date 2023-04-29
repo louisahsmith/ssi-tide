@@ -1,5 +1,5 @@
 ---
-title: "Casco Bay Tides"
+title: "St. Simons Island Tides"
 output:
   html_document:
     includes:
@@ -28,7 +28,7 @@ htmltools::HTML(
       <div class="modal-body">
         <div>
         Just a simple web-app for checking
-        current tide levels in the Casco Bay region of Maine. The tide data
+        current tide levels on St. Simons Island, GA. The tide data
         comes from the NOAA. Weather data comes from Open Weather Map. The website
         is free to use and doesn\'t track any cookies or collect any data.
         </div><br>
@@ -38,7 +38,7 @@ htmltools::HTML(
         on your phone.
         </div><br>
         <div>
-        Not a web-developer, just a tinkerer who likes taking the dogs to the beach. <a href="https://github.com/rbcavanaugh/portland-tide2">code</a><br><br>
+        Forked from <a href="https://github.com/rbcavanaugh/portland-tide2">Rob Cavanaugh</a><br><br>
         <img src="www/pups.jpg" alt="dogs on the beach" width="50%" class="center"><img>
         </div>
       </div>

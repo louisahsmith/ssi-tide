@@ -22,7 +22,7 @@ ntt2_vec <- Vectorize(ntt2)
 
 getTideData <- function(){
  rtide::tide_height(
-  "Casco Bay", #
+  "St. Simons Lighthouse, St. Simons Island, Georgia", #
   from = Sys.Date()-15, to = Sys.Date()+15,
   minutes = 10L, tz = "EST5EDT"
 ) %>%

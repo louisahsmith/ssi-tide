@@ -1,9 +1,9 @@
 {
-  "name": "Portland Tide",
-  "short_name": "Portland Tide",
-  "description": "A simple PWA to view Portland, ME tide charts",
+  "name": "St Simons Island Tides",
+  "short_name": "SSI Tide",
+  "description": "A simple PWA to view St Simons Island, GA tide charts",
   "lang": "en-US",
-  "start_url": "https://rbcavanaugh.github.io/portland-tide2",
+  "start_url": "https://louisahsmith.github.io/ssi-tide",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",

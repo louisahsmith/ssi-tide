@@ -1,6 +1,5 @@
-
-lat = "43.6591"
-lon = "-70.2568"
+lat = "31.13402499714677"
+lon = "-81.39011139933879"
 key = Sys.getenv("WEATHER")
 cnt = "2"
 part = "hourly"
@@ -40,7 +39,7 @@ ntt2_vec <- Vectorize(ntt2)
 
 getTideData <- function(){
  rtide::tide_height(
-  "Casco Bay", #
+   "St. Simons Lighthouse, St. Simons Island, Georgia", #
   from = Sys.Date()-15, to = Sys.Date()+15,
   minutes = 10L, tz = "EST5EDT"
 ) %>%
