@@ -1,6 +1,6 @@
 {
   "name": "St Simons Island Tides",
-  "short_name": "SSI Tide",
+  "short_name": "SSI Tides",
   "description": "A simple PWA to view St Simons Island, GA tide charts",
   "lang": "en-US",
   "start_url": "https://louisahsmith.github.io/ssi-tide",
