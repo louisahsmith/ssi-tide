@@ -97,10 +97,6 @@ local({
     substring(string, 1, nchar(prefix)) == prefix
   }
   
-  `%??%` <- function(x, y) {
-    if (is.null(x)) y else x
-  }
-  
   bootstrap <- function(version, library) {
   
     friendly <- renv_bootstrap_version_friendly(version)
